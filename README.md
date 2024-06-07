@@ -1,7 +1,13 @@
 # gitskills
 
-git merge text
+查看分支：`git branch`
 
-git branch text
+创建分支：`git branch <name>`
 
-git checkout -b text
+切换分支：`git checkout <name>`或者`git switch <name>`
+
+创建+切换分支：`git checkout -b <name>`或者`git switch -c <name>`
+
+合并某分支到当前分支：`git merge <name>`
+
+删除分支：`git branch -d <name>`
