@@ -26,11 +26,13 @@
 
 创建+切换分支：`git checkout -b <name>`或者`git switch -c <name>`
 
+删除分支：`git branch -d <name>`
+
 合并某分支到当前分支：`git merge <name>`
 
 查看分支合并情况：git log --graph --pretty=oneline --abbrev-commit
 
-删除分支：`git branch -d <name>`
+git merge了错误分支，如何回退到merge前的状态:`git reset --hard HEAD^`
 
 
 
